@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class UserController extends Controller
 {
-    function getUser(){
-        return "Shoaib Akhter"
+    function getUser($name){
+        return "My name is ". $name;
     }
 }
