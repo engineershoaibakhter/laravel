@@ -1,3 +1,0 @@
-
-<h1>Message Banner</h1>
-<h2>{{$msg}}</h2>

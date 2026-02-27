@@ -9,9 +9,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/user',[UserController::class,'getUser']);
-
-Route::get('/admin',[AdminController::class,'getAdmin']);
-
-Route::view('user-form','user-form');
-Route::post('addUser',[UserForm::class,'getFormData']);
+Route::view('home','home');
+Route::view('about','about');
+Route::view('about/{name}','about');
+Route::view('user','about');
