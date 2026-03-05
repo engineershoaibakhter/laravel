@@ -1,11 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\StudentController;
+use App\Http\Controllers\SellerController;
 
 Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/student',[StudentController::class,'list']);
-Route::get('/save',[StudentController::class,'save']);
+Route::get('list',[SellerController::class,'list']);
