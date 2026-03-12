@@ -8,6 +8,8 @@ use App\Models\Test;
 class TestController extends Controller
 {
     function list(){
-        return Test::all();
+    return "shoaib akhter";
+
+        // return Test::all();
     }
 }
